@@ -844,7 +844,12 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 20px 0;
+  /* margin-inline: 2rem; */
+  margin: 3rem 2rem;
+  /* padding: 20px 30px; */
+  border-radius: 1rem;
+  background-color:#92b948;
+  box-shadow: 0px 10px 50px rgba(68, 40, 4, 0.158);
 }
 
 .clients .client-logo {
@@ -852,10 +857,11 @@ section,
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  color: #324E2A;
 }
 
 .clients .client-logo img {
-  padding: 20px 40px;
+  /* padding: 20px 40px; */
   max-width: 90%;
   transition: 0.3s;
   opacity: 0.5;
@@ -869,7 +875,7 @@ section,
 
 @media (max-width: 640px) {
   .clients .client-logo img {
-    padding: 20px;
+    /* padding: 20px; */
   }
 }
 
@@ -1516,7 +1522,7 @@ section,
 --------------------------------------------------------------*/
 .faq{
 background-color: #FFFAEC;
-padding-top: 0;
+padding-top: 120px;
 }
 
 .faq .content h3 {
