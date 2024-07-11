@@ -850,6 +850,7 @@ section,
   border-radius: 1rem;
   background-color:#92b948;
   box-shadow: 0px 10px 50px rgba(68, 40, 4, 0.158);
+  font-size: 18px;
 }
 
 .clients .client-logo {
