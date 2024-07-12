@@ -2662,6 +2662,12 @@ padding-top: 120px;
 /* .services-details-page{
   background-color: #FFFAEC;
 } */
+.main-services section{
+ background-color: #FFFAEC;
+}
+.main-services .beneficios{
+  background-color: #92b948;
+}
  .heading h5{
   color: #059652;
   margin-bottom: 0;
