@@ -2666,7 +2666,7 @@ padding-top: 120px;
  background-color: #FFFAEC;
 }
 .main-services .beneficios{
-  background-color: #92b948;
+  background-color: #eeb50b;
 }
  .heading h5{
   color: #059652;
@@ -2678,6 +2678,7 @@ padding-top: 120px;
  }
  .heading p{
   margin-bottom: 3rem;
+  color: #843114;
  }
  .heading p span{
   display: block;
@@ -2701,7 +2702,16 @@ color: #078A4D;
  .heading img{
   width: 550px;
  }
+ .fotoprofe{
+  width: 70%;
+ }
+ #sub-detalle{
+  color: #078A4D;
+  font-weight: 700;
+  font-size: 30px;
+}
  @media (max-width: 1199px){
+  
   img-taller{
     text-align: center;
   }
@@ -2798,8 +2808,9 @@ color: #078A4D;
 }
 
 .service-details .help-box {
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
   color: var(--contrast-color);
+  color: #843114 ;
   margin-top: 30px;
   padding: 30px 15px;
 }
@@ -2811,7 +2822,8 @@ color: #078A4D;
 
 .service-details .help-box h4,
 .service-details .help-box a {
-  color: var(--contrast-color);
+  color: #843114;
+  font-weight: 600;
 }
 
 .service-details .services-img {
