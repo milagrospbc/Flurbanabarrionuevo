@@ -1277,6 +1277,7 @@ section,
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+  background-color: #FFFAEC;
 }
 
 .portfolio .portfolio-filters li {
@@ -1306,6 +1307,9 @@ section,
 .portfolio .portfolio-filters li:last-child {
   margin-right: 0;
 }
+.portfolio h2{
+  color: #059652;
+}
 
 @media (max-width: 575px) {
   .portfolio .portfolio-filters li {
@@ -1329,6 +1333,7 @@ section,
   transition: all ease-in-out 0.5s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
   padding: 15px;
+  border-radius: 5rem;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -3078,7 +3083,13 @@ color: #078A4D;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+.newsletter h3{
+color: #078A4D;
+font-weight: 700;
+}
 #btn-news{
   font-family: "Red Hat Display", sans-serif;
   background-color: #eeb50b;
+  font-weight: 600;
 }
